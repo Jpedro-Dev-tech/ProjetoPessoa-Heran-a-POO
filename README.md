@@ -21,8 +21,8 @@ A aplicação possui uma classe base chamada `Pessoa`, da qual derivam outras cl
 
   * Nome
   * Idade
-  * dataNascimento
-  * sexo
+  * DataNascimento
+  * Sexo
 
 ### Classes Derivadas
 
@@ -30,22 +30,22 @@ A aplicação possui uma classe base chamada `Pessoa`, da qual derivam outras cl
 
   * Matrícula
   * Curso
-  * idade
-  * nome
+  * Idade
+  * Nome
 
 * **Professor**
 
-  * nome
-  * salário
-  * idade
-  * cargo
-  * sexo
+  * Nome
+  * Salário
+  * Idade
+  * Cargo
+  * Sexo
 
 * **Funcionario**
 
-  * cargo
-  * setor
-  * salario
+  * Cargo
+  * Setor
+  * Salario
 ## 🚀 Tecnologias Utilizadas
 
 * Java
