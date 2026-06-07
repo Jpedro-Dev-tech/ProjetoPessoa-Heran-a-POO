@@ -1,0 +1,70 @@
+package Classes;
+
+public class Aluno extends Pessoa {
+    private String nome;
+    private String matricula;
+    private int idade;
+    private String curso;
+
+    public Aluno(String nome, String matricula, int idade, String curso) {
+        this.nome = nome;
+        this.matricula = matricula;
+        this.idade = idade;
+        this.curso = curso;
+    }
+
+    public void nomeAluno(String nome){
+        this.nome = nome;
+    }
+    public void matriculaAluno(String matricula){
+        this.matricula = matricula;
+    }
+    public void idadeAluno(int idade){
+        this.idade = idade;
+    }
+    public void cancelarMatriculaAluno(String matricula){
+        System.out.println("Matricula será cancelada" + matricula);
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public String getMatricula() {
+        return matricula;
+    }
+
+    public void setMatricula(String matricula) {
+        this.matricula = matricula;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
+
+    public String getCurso() {
+        return curso;
+    }
+
+    public void setCurso(String curso) {
+        this.curso = curso;
+    }
+
+    @Override
+    public String toString() {
+        return "Aluno{" +
+                "nome='" + nome + '\'' +
+                ", matricula='" + matricula + '\'' +
+                ", idade=" + idade +
+                ", curso='" + curso + '\'' +
+                '}';
+    }
+}
